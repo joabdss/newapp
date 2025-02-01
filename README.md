@@ -16,7 +16,7 @@ docker build -t joabdss/newapp:1.0.0 .
 
 Run a container:
 
-docker run -d -p 80:8080 --rm --name newapp joabdss/newapp:1.0.0
+docker run -d -p 80:80 --rm --name newapp joabdss/newapp:1.0.0
 
 
 Access http://DOCKER_HOST_IP in browser.
